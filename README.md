@@ -1,0 +1,1 @@
+需要注意的一点就是，iOS默认的沙盒机制只允许用户更改documents目录下的数据，所以数据库路径的设置很重要，用到NSHomeDictionary这个函数就可以知道文件路径到底在哪里了，查看sqlite文件用到firefox的sqlite manager插件即可。
